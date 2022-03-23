@@ -1,0 +1,358 @@
+%!PS-Adobe-3.0
+%%Creator: groff version 1.22.4
+%%CreationDate: Wed Mar 23 02:49:40 2022
+%%DocumentNeededResources: font Times-Roman
+%%+ font Times-Bold
+%%+ font Times-Italic
+%%DocumentSuppliedResources: procset grops 1.22 4
+%%Pages: 2
+%%PageOrder: Ascend
+%%DocumentMedia: Default 612 792 0 () ()
+%%Orientation: Portrait
+%%EndComments
+%%BeginDefaults
+%%PageMedia: Default
+%%EndDefaults
+%%BeginProlog
+%%BeginResource: procset grops 1.22 4
+%!PS-Adobe-3.0 Resource-ProcSet
+/setpacking where{
+pop
+currentpacking
+true setpacking
+}if
+/grops 120 dict dup begin
+/SC 32 def
+/A/show load def
+/B{0 SC 3 -1 roll widthshow}bind def
+/C{0 exch ashow}bind def
+/D{0 exch 0 SC 5 2 roll awidthshow}bind def
+/E{0 rmoveto show}bind def
+/F{0 rmoveto 0 SC 3 -1 roll widthshow}bind def
+/G{0 rmoveto 0 exch ashow}bind def
+/H{0 rmoveto 0 exch 0 SC 5 2 roll awidthshow}bind def
+/I{0 exch rmoveto show}bind def
+/J{0 exch rmoveto 0 SC 3 -1 roll widthshow}bind def
+/K{0 exch rmoveto 0 exch ashow}bind def
+/L{0 exch rmoveto 0 exch 0 SC 5 2 roll awidthshow}bind def
+/M{rmoveto show}bind def
+/N{rmoveto 0 SC 3 -1 roll widthshow}bind def
+/O{rmoveto 0 exch ashow}bind def
+/P{rmoveto 0 exch 0 SC 5 2 roll awidthshow}bind def
+/Q{moveto show}bind def
+/R{moveto 0 SC 3 -1 roll widthshow}bind def
+/S{moveto 0 exch ashow}bind def
+/T{moveto 0 exch 0 SC 5 2 roll awidthshow}bind def
+/SF{
+findfont exch
+[exch dup 0 exch 0 exch neg 0 0]makefont
+dup setfont
+[exch/setfont cvx]cvx bind def
+}bind def
+/MF{
+findfont
+[5 2 roll
+0 3 1 roll
+neg 0 0]makefont
+dup setfont
+[exch/setfont cvx]cvx bind def
+}bind def
+/level0 0 def
+/RES 0 def
+/PL 0 def
+/LS 0 def
+/MANUAL{
+statusdict begin/manualfeed true store end
+}bind def
+/PLG{
+gsave newpath clippath pathbbox grestore
+exch pop add exch pop
+}bind def
+/BP{
+/level0 save def
+1 setlinecap
+1 setlinejoin
+DEFS/BPhook known{DEFS begin BPhook end}if
+72 RES div dup scale
+LS{
+90 rotate
+}{
+0 PL translate
+}ifelse
+1 -1 scale
+}bind def
+/EP{
+level0 restore
+showpage
+}def
+/DA{
+newpath arcn stroke
+}bind def
+/SN{
+transform
+.25 sub exch .25 sub exch
+round .25 add exch round .25 add exch
+itransform
+}bind def
+/DL{
+SN
+moveto
+SN
+lineto stroke
+}bind def
+/DC{
+newpath 0 360 arc closepath
+}bind def
+/TM matrix def
+/DE{
+TM currentmatrix pop
+translate scale newpath 0 0 .5 0 360 arc closepath
+TM setmatrix
+}bind def
+/RC/rcurveto load def
+/RL/rlineto load def
+/ST/stroke load def
+/MT/moveto load def
+/CL/closepath load def
+/Fr{
+setrgbcolor fill
+}bind def
+/setcmykcolor where{
+pop
+/Fk{
+setcmykcolor fill
+}bind def
+}if
+/Fg{
+setgray fill
+}bind def
+/FL/fill load def
+/LW/setlinewidth load def
+/Cr/setrgbcolor load def
+/setcmykcolor where{
+pop
+/Ck/setcmykcolor load def
+}if
+/Cg/setgray load def
+/RE{
+findfont
+dup maxlength 1 index/FontName known not{1 add}if dict begin
+{
+1 index/FID ne
+2 index/UniqueID ne
+and
+{def}{pop pop}ifelse
+}forall
+/Encoding exch def
+dup/FontName exch def
+currentdict end definefont pop
+}bind def
+/DEFS 0 def
+/EBEGIN{
+moveto
+DEFS begin
+}bind def
+/EEND/end load def
+/CNT 0 def
+/level1 0 def
+/PBEGIN{
+/level1 save def
+translate
+div 3 1 roll div exch scale
+neg exch neg exch translate
+0 setgray
+0 setlinecap
+1 setlinewidth
+0 setlinejoin
+10 setmiterlimit
+[]0 setdash
+/setstrokeadjust where{
+pop
+false setstrokeadjust
+}if
+/setoverprint where{
+pop
+false setoverprint
+}if
+newpath
+/CNT countdictstack def
+userdict begin
+/showpage{}def
+/setpagedevice{}def
+mark
+}bind def
+/PEND{
+cleartomark
+countdictstack CNT sub{end}repeat
+level1 restore
+}bind def
+end def
+/setpacking where{
+pop
+setpacking
+}if
+%%EndResource
+%%EndProlog
+%%BeginSetup
+%%BeginFeature: *PageSize Default
+<< /PageSize [ 612 792 ] /ImagingBBox null >> setpagedevice
+%%EndFeature
+%%IncludeResource: font Times-Roman
+%%IncludeResource: font Times-Bold
+%%IncludeResource: font Times-Italic
+grops begin/DEFS 1 dict def DEFS begin/u{.001 mul}bind def end/RES 72
+def/PL 792 def/LS false def/ENC0[/asciicircum/asciitilde/Scaron/Zcaron
+/scaron/zcaron/Ydieresis/trademark/quotesingle/Euro/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/space/exclam/quotedbl/numbersign/dollar/percent
+/ampersand/quoteright/parenleft/parenright/asterisk/plus/comma/hyphen
+/period/slash/zero/one/two/three/four/five/six/seven/eight/nine/colon
+/semicolon/less/equal/greater/question/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O
+/P/Q/R/S/T/U/V/W/X/Y/Z/bracketleft/backslash/bracketright/circumflex
+/underscore/quoteleft/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y
+/z/braceleft/bar/braceright/tilde/.notdef/quotesinglbase/guillemotleft
+/guillemotright/bullet/florin/fraction/perthousand/dagger/daggerdbl
+/endash/emdash/ff/fi/fl/ffi/ffl/dotlessi/dotlessj/grave/hungarumlaut
+/dotaccent/breve/caron/ring/ogonek/quotedblleft/quotedblright/oe/lslash
+/quotedblbase/OE/Lslash/.notdef/exclamdown/cent/sterling/currency/yen
+/brokenbar/section/dieresis/copyright/ordfeminine/guilsinglleft
+/logicalnot/minus/registered/macron/degree/plusminus/twosuperior
+/threesuperior/acute/mu/paragraph/periodcentered/cedilla/onesuperior
+/ordmasculine/guilsinglright/onequarter/onehalf/threequarters
+/questiondown/Agrave/Aacute/Acircumflex/Atilde/Adieresis/Aring/AE
+/Ccedilla/Egrave/Eacute/Ecircumflex/Edieresis/Igrave/Iacute/Icircumflex
+/Idieresis/Eth/Ntilde/Ograve/Oacute/Ocircumflex/Otilde/Odieresis
+/multiply/Oslash/Ugrave/Uacute/Ucircumflex/Udieresis/Yacute/Thorn
+/germandbls/agrave/aacute/acircumflex/atilde/adieresis/aring/ae/ccedilla
+/egrave/eacute/ecircumflex/edieresis/igrave/iacute/icircumflex/idieresis
+/eth/ntilde/ograve/oacute/ocircumflex/otilde/odieresis/divide/oslash
+/ugrave/uacute/ucircumflex/udieresis/yacute/thorn/ydieresis]def
+/Times-Italic@0 ENC0/Times-Italic RE/Times-Bold@0 ENC0/Times-Bold RE
+/Times-Roman@0 ENC0/Times-Roman RE
+%%EndSetup
+%%Page: 1 1
+%%BeginPageSetup
+BP
+%%EndPageSetup
+/F0 10/Times-Roman@0 SF 187.625(lpr\(1\) Apple)72 48 R 187.625
+(Inc. lpr\(1\))2.5 F/F1 10.95/Times-Bold@0 SF -.219(NA)72 84 S(ME).219 E
+F0(lpr \255 print \214les)108 96 Q F1(SYNOPSIS)72 112.8 Q/F2 10
+/Times-Bold@0 SF(lpr)108 124.8 Q F0([)2.674 E F2<ad45>2.674 E F0 2.674
+(][)2.674 G F2<ad48>A/F3 10/Times-Italic@0 SF(server)2.674 E F0([)A F2
+(:)A F3(port)A F0 2.674(]][)C F2<ad55>A F3(username)2.754 E F0 2.674(][)
+2.854 G F2<ad50>A F3(destination)2.674 E F0([)A F2(/)A F3(instance)A F0
+2.674(]])C([)-.001 E F2<ad23>2.673 E F3(num-copies)3.033 E F0([)2.943 E
+F2<ad68>2.673 E F0 2.673(][)2.673 G F2<ad6c>A F0 2.673(][)2.673 G F2
+<ad6d>108 136.8 Q F0 2.5(][)2.5 G F2<ad6f>A F3(option)2.5 E F0([)A F2(=)
+A F3(value)A F0 2.5(]][)C F2<ad70>A F0 2.5(][)2.5 G F2<ad71>A F0 2.5(][)
+2.5 G F2<ad72>A F0 2.5(][)2.5 G F2<ad43>A F3(title)2.63 E F0 2.5(][)2.68
+G F2<ad4a>A F3(title)2.63 E F0 2.5(][)2.68 G F2<ad54>A F3(title)2.63 E
+F0 2.5(][)2.68 G F3(\214le\(s\))1.91 E F0(])2.56 E F1(DESCRIPTION)72
+153.6 Q F2(lpr)108 165.6 Q F0 .156(submits \214les for printing.)2.656 F
+.156(Files named on the command line are sent to the named printer or t\
+he def)5.156 F(ault)-.1 E .468
+(destination if no destination is speci\214ed.)108 177.6 R .468
+(If no \214les are listed on the command-line,)5.468 F F2(lpr)2.968 E F0
+.467(reads the print \214le)2.967 F(from the standard input.)108 189.6 Q
+F2(THE DEF)87 206.4 Q -.5(AU)-.9 G 1.84 -.92(LT D).5 H(ESTIN).92 E -.95
+(AT)-.2 G(ION).95 E F0 .524(CUPS pro)108 218.4 R .524(vides man)-.15 F
+3.024(yw)-.15 G .524(ays to set the def)-3.124 F .524
+(ault destination. The)-.1 F F2(LPDEST)3.024 E F0(and)3.025 E F2
+(PRINTER)3.025 E F0(en)3.025 E .525(vironment v)-.4 F(ari-)-.25 E .373
+(ables are consulted \214rst.)108 230.4 R .372
+(If neither are set, the current def)5.373 F .372(ault set using the)-.1
+F F2(lpoptions)2.872 E F0 .372(\(1\) command is used,)B(follo)108 242.4
+Q(wed by the def)-.25 E(ault set using the)-.1 E F2(lpadmin)2.5 E F0
+(\(8\) command.)A F1(OPTIONS)72 259.2 Q F0(The follo)108 271.2 Q
+(wing options are recognized by)-.25 E F3(lpr)2.5 E F0(:)A F2<ad45>108
+288 Q F0 -.15(Fo)133 288 S(rces encryption when connecting to the serv)
+.15 E(er)-.15 E(.)-.55 E F2<ad48>108 304.8 Q F3(server)2.5 E F0([)A F2
+(:)A F3(port)A F0(])A(Speci\214es an alternate serv)133 316.8 Q(er)-.15
+E(.)-.55 E F2(\255C ")108 333.6 Q F3(name)A F2(")A(\255J ")108 350.4 Q
+F3(name)A F2(")A(\255T ")108 367.2 Q F3(name)A F2(")A F0
+(Sets the job name/title.)133 379.2 Q F2<ad50>108 396 Q F3(destination)
+2.5 E F0([)A F2(/)A F3(instance)A F0(])A
+(Prints \214les to the named printer)133 408 Q(.)-.55 E F2<ad55>108
+424.8 Q F3(username)2.5 E F0(Speci\214es an alternate username.)133
+436.8 Q F2<ad23>108 453.6 Q F3(copies)2.5 E F0
+(Sets the number of copies to print.)133 465.6 Q F2<ad68>108 482.4 Q F0
+(Disables banner printing. This option is equi)133 482.4 Q -.25(va)-.25
+G(lent to).25 E F3(-o job\255sheets=none)2.5 E F0(.)A F2<ad6c>108 499.2
+Q F0 .626(Speci\214es that the print \214le is already formatted for th\
+e destination and should be sent without \214lter)133 499.2 R(-)-.2 E
+2.5(ing. This)133 511.2 R(option is equi)2.5 E -.25(va)-.25 G(lent to)
+.25 E F3(-o r)2.5 E(aw)-.15 E F0(.)A F2<ad6d>108 528 Q F0
+(Send an email on job completion.)133 528 Q F2<ad6f>108 544.8 Q F3
+(option)2.5 E F0([)A F2(=)A F3(value)A F0(])A(Sets a job option.)133
+556.8 Q(See "COMMON JOB OPTIONS" belo)5 E -.65(w.)-.25 G F2<ad70>108
+573.6 Q F0 .676(Speci\214es that the print \214le should be formatted w\
+ith a shaded header with the date, time, job name,)133 573.6 R .878
+(and page number)133 585.6 R 5.878(.T)-.55 G .879(his option is equi)
+-5.878 F -.25(va)-.25 G .879(lent to).25 F F3 .879(\255o pr)3.379 F
+(ettyprint)-.37 E F0 .879(and is only useful when printing te)3.379 F
+(xt)-.15 E(\214les.)133 597.6 Q F2<ad71>108 614.4 Q F0
+(Hold job for printing.)133 614.4 Q F2<ad72>108 631.2 Q F0(Speci\214es \
+that the named print \214les should be deleted after submitting them.)
+133 631.2 Q F2(COMMON JOB OPTIONS)87 648 Q F0 .962
+(Aside from the printer)108 660 R .962
+(-speci\214c options reported by the)-.2 F F2(lpoptions)3.461 E F0 .961
+(\(1\) command, the follo)B .961(wing generic op-)-.25 F(tions are a)108
+672 Q -.25(va)-.2 G(ilable:).25 E F2(\255o job-sheets=)108 688.8 Q F3
+(name)A F0 .352(Prints a co)133 700.8 R -.15(ve)-.15 G 2.852(rp).15 G
+.352(age \(banner\) with the document.)-2.852 F .352
+(The "name" can be "classi\214ed", "con\214dential", "se-)5.352 F
+(cret", "standard", "topsecret", or "unclassi\214ed".)133 712.8 Q
+(26 April 2019)72 768 Q 213.995(CUPS 1)165.385 F 0 Cg EP
+%%Page: 2 2
+%%BeginPageSetup
+BP
+%%EndPageSetup
+/F0 10/Times-Roman@0 SF 187.625(lpr\(1\) Apple)72 48 R 187.625
+(Inc. lpr\(1\))2.5 F/F1 10/Times-Bold@0 SF(\255o media=)108 84 Q/F2 10
+/Times-Italic@0 SF(size)A F0(Sets the page size to)133 96 Q F2(size)2.5
+E F0 2.5(.M)C
+(ost printers support at least the size names "a4", "letter", and "le)
+-2.5 E -.05(ga)-.15 G(l".).05 E F1(\255o number\255up=)108 112.8 Q F0({)
+A F2(2|4|6|9|16)A F0(})A
+(Prints 2, 4, 6, 9, or 16 document \(input\) pages on each output page.)
+133 124.8 Q F1(\255o orientation\255r)108 141.6 Q(equested=4)-.18 E F0
+(Prints the job in landscape \(rotated 90 de)133 153.6 Q(grees counter)
+-.15 E(-clockwise\).)-.2 E F1(\255o orientation\255r)108 170.4 Q
+(equested=5)-.18 E F0(Prints the job in landscape \(rotated 90 de)133
+182.4 Q(grees clockwise\).)-.15 E F1(\255o orientation\255r)108 199.2 Q
+(equested=6)-.18 E F0(Prints the job in re)133 211.2 Q -.15(ve)-.25 G
+(rse portrait \(rotated 180 de).15 E(grees\).)-.15 E F1
+(\255o print\255quality=3)108 228 Q(\255o print\255quality=4)108 244.8 Q
+(\255o print\255quality=5)108 261.6 Q F0(Speci\214es the output quality\
+ \255 draft \(3\), normal \(4\), or best \(5\).)133 273.6 Q F1
+(\255o sides=one\255sided)108 290.4 Q F0
+(Prints on one side of the paper)133 302.4 Q(.)-.55 E F1(\255o sides=tw)
+108 319.2 Q(o\255sided\255long\255edge)-.1 E F0
+(Prints on both sides of the paper for portrait output.)133 331.2 Q F1
+(\255o sides=tw)108 348 Q(o\255sided\255short\255edge)-.1 E F0
+(Prints on both sides of the paper for landscape output.)133 360 Q/F3
+10.95/Times-Bold@0 SF(NO)72 376.8 Q(TES)-.438 E F0(The)108 388.8 Q F2
+<ad63>3.486 E F0(,)A F2<ad64>3.486 E F0(,)A F2<ad66>3.486 E F0(,)A F2
+<ad67>3.486 E F0(,)A F2<ad69>3.486 E F0(,)A F2<ad6e>3.486 E F0(,)A F2
+<ad74>3.486 E F0(,)A F2<ad76>3.486 E F0 3.486(,a)C(nd)-3.486 E F2<ad77>
+3.486 E F0 .986(options are not supported by CUPS and produce a w)3.486
+F(arning)-.1 E(message if used.)108 400.8 Q F3(EXAMPLES)72 417.6 Q F0
+(Print tw)108 429.6 Q 2.5(oc)-.1 G(opies of a document to the def)-2.5 E
+(ault printer:)-.1 E(lpr \255# 2 \214lename)118 453.6 Q
+(Print a double-sided le)108 477.6 Q -.05(ga)-.15 G 2.5(ld).05 G
+(ocument to a printer called "foo":)-2.5 E(lpr \255P foo \255o media=le)
+118 501.6 Q -.05(ga)-.15 G 2.5<6cad>.05 G 2.5(os)-2.5 G(ides=tw)-2.5 E
+(o-sided-long-edge \214lename)-.1 E
+(Print a presentation document 2-up to a printer called "foo":)108 525.6
+Q(lpr \255P foo \255o number)118 549.6 Q(-up=2 \214lename)-.2 E F3
+(SEE ALSO)72 566.4 Q F1(cancel)108 578.4 Q F0(\(1\),)A F1(lp)4.228 E F0
+(\(1\),)A F1(lpadmin)4.228 E F0(\(8\),)A F1(lpoptions)4.228 E F0(\(1\),)
+A F1(lpq)4.228 E F0(\(1\),)A F1(lprm)4.228 E F0(\(1\),)A F1(lpstat)4.228
+E F0 1.728(\(1\), CUPS Online Help \(http://local-)B(host:631/help\))108
+590.4 Q F3(COPYRIGHT)72 607.2 Q F0(Cop)108 619.2 Q
+(yright \251 2007-2019 by Apple Inc.)-.1 E(26 April 2019)72 768 Q
+213.995(CUPS 2)165.385 F 0 Cg EP
+%%Trailer
+end
+%%EOF
