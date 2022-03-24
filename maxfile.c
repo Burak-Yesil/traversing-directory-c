@@ -4,37 +4,44 @@
 #include <dirent.h>
 #include <sys/stat.h>
 
+
 int main(int argc, char* argv[]){
 
      DIR* dir;
-     dir = opendir(argv[1]);
+     dir = opendir(argv[1]); //Opening Directory from CLI
      
-     char fileName[1024];
-     struct dirent *f;
-     struct stat st;
+     
+     struct dirent *f; //stores file
+     struct stat buff; //stores file info
      
 
-     char maxFileName[1024];
+     char maxFileNameW[1024]; //Largest writable 
+     char maxFileNameNW[1024]; //Used to keep track of largest file
+
      
-     
-     if (dir == NULL){
-     	printf("Unable to open directory");
+     if (dir == NULL){ //Checking if directory exists
+     	printf("Unable to open directory\n");
      	exit(1);
      }
      
      
      while((f=readdir(dir)) != NULL){
      
-     	stat(f->d_name, &st); //Getting info on the current file
+     	stat(f->d_name, &buff); //Getting info on the current file
      	
-     	if(S_ISREG(st.st_mode)){  //Checking that the file is a regular file
+     	
+     	//printf("Mode: %d\n", buff.st_mode);
+
+     	if(S_ISREG(buff.st_mode) != 0){  //Checking that the file is a regular file
      	printf("regular file");
      	}
      	
   
-     	printf("%s: %ld\n", f->d_name, st.st_size);
+     	printf("%s: %ld\n", f->d_name, buff.st_size);
      }
      
+
+
      
      closedir(dir);
   
