@@ -4,14 +4,14 @@
 #include <dirent.h>
 #include <sys/stat.h>
 
-void function1(char * directoryName, long int * maxWritableFileSize, long int * maxNonWritableFileSize, char * maxWritableName, char * maxNonWritableName){
+int function1(char * directoryName, long int * maxWritableFileSize, long int * maxNonWritableFileSize, char * maxWritableName, char * maxNonWritableName){
 
      DIR *dir;
      dir = opendir(directoryName); //Opening directory
 
      if (dir == NULL){ //checking if directory successfully opened
           printf("Unable to open directory\n");
-          exit(1);
+          return 1;
      }
      
 
@@ -53,14 +53,14 @@ void function1(char * directoryName, long int * maxWritableFileSize, long int * 
 
 
 
-void function2(char * directoryName, long int * maxWritableFileSize, long int * maxNonWritableFileSize, char * maxWritableName, char * maxNonWritableName){
+int function2(char * directoryName, long int * maxWritableFileSize, long int * maxNonWritableFileSize, char * maxWritableName, char * maxNonWritableName){
 
      DIR *dir;
      dir = opendir(directoryName); //Opening directory
 
      if (dir == NULL){ //checking if directory successfully opened
           printf("Unable to open directory\n");
-          exit(1);
+          return 1;
      }
      
      struct dirent *f; //stores file
@@ -108,21 +108,21 @@ void function2(char * directoryName, long int * maxWritableFileSize, long int * 
 
 
 
-void function3(char * directoryName){
+int function3(char * directoryName){
 
      DIR *dir;
      dir = opendir(directoryName); //Opening directory
 
      if (dir == NULL){ //checking if directory successfully opened
-          printf("Unable to open directory\n");
-          exit(1);
+          printf("du: cannot read directory '%s': Permission denied\n", directoryName);
+          printf("4096\t%s\n", directoryName);
+          return 1;
      }
      
 
      struct dirent *f; //stores file
      struct stat buff; //stores file info 
      char path[4096]; //stores path
-
      size_t totalUsage = 0;
      
      while((f=readdir(dir)) != NULL){     
@@ -138,9 +138,12 @@ void function3(char * directoryName){
                     continue; //Move on to next file in dir
                }else if(S_ISDIR(buff.st_mode)){
                     //printf("adding directory %s -->  %ld\n", path, buff.st_size);
-                    if (strcmp("..", f->d_name)!=0){
-                         if (strcmp(".", f->d_name)!=0){
-                              totalUsage += buff.st_size;
+
+                    if (buff.st_mode & S_IRUSR){
+                         if (strcmp("..", f->d_name)!=0){
+                              if (strcmp(".", f->d_name)!=0){
+                                   totalUsage += buff.st_size;
+                              }
                          }
                     }
                }
@@ -148,19 +151,23 @@ void function3(char * directoryName){
           }
      }
 
+     totalUsage+=4096;
+
      printf("%ld\t%s\n", totalUsage, directoryName);
 
      closedir(dir);
 }
 
-void function4(char * directoryName){
+
+int function4(char * directoryName){
 
      DIR *dir;
      dir = opendir(directoryName); //Opening directory
 
      if (dir == NULL){ //checking if directory successfully opened
-          printf("Unable to open directory\n");
-          exit(1);
+          printf("du: cannot read directory '%s': Permission denied\n", directoryName);
+          printf("4096\t%s\n", directoryName);
+          return 1;
      }
      
      struct dirent *f; //stores file
@@ -196,7 +203,7 @@ void function4(char * directoryName){
           }
      }
 
-     totalUsage += 8196;
+     totalUsage += 4096;
 
      printf("%ld\t%s\n", totalUsage, directoryName);
 
